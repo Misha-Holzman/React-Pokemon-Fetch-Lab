@@ -15,10 +15,10 @@ Gotta fetch em all!
 ### Part 2
 
 1. Make a handle click method that passes the pokemon url to a second fetch call that gets data about the individual pokemon that was clicked on.
-1. Pass props to the single pokemon componenet, which should include the height, weight, and an image of the pokemon.
+1. Pass props to the single pokemon componenet, which should include its height and weight, as well as an image of the pokemon.
 
 
 
 We'll be using the [poke api](https://pokeapi.co/) to complete this exercise.
 
-This is the url you will pass into your initial fetch call (http://pokeapi.co/api/v2/pokemon?limit=20)
+This is the url that you will pass into your initial fetch call (http://pokeapi.co/api/v2/pokemon?limit=20)
